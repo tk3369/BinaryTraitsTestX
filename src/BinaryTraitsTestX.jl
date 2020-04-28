@@ -1,5 +1,10 @@
 module BinaryTraitsTestX
 
-greet() = print("Hello World!")
+export CanFly, CannotFly, flytrait, FlyTrait
+
+using BinaryTraits
+
+@trait Fly
+@implement CanFly by liftoff()
 
 end # module

@@ -1,7 +1,10 @@
 name = "BinaryTraitsTestX"
 uuid = "25caf71b-d29e-4454-bcbd-e16fc214d522"
 authors = ["Tom Kwong <tk3369@gmail.com>"]
-version = "0.1.0"
+version = "0.1.1"
+
+[deps]
+BinaryTraits = "190e46ec-f771-4705-b939-984896f7be0e"
 
 [compat]
 julia = "1"
