@@ -1,6 +1,6 @@
 This is a test project for demonstrating how `prefix_map` and `traits_map` are wiped out when they reside in `BinaryTraits` module.  This problem only eixsts in an older version of BinaryTraits (v0.1.0).
 
-# How to run?
+**How to run?**
 
 Clone this project and then run it with `julia --project=.`
 
